@@ -10,7 +10,7 @@ interface PageProps {
 const fetchTodo = async (todoId: string) => {
   const res = await fetch(
     `https://jsonplaceholder.typicode.com/todos/${todoId}`,
-    { next: { revalidate: 60 } } // SSG와 같은 정적사이트를 생성할 때와 비슷함
+    { next: { revalidate: 60 } } // 정적사이트를 생성 60초 마다 리빌드
   );
   const todo = await res.json();
 
@@ -36,6 +36,7 @@ const TodoPage = async ({ params: { todoId } }: PageProps) => {
 
 export default TodoPage;
 
+// 정적 사이트 생성 0~10번째 까지
 export async function generateStaticParams() {
   const res = await fetch(`https://jsonplaceholder.typicode.com/todos/`);
   const todos: Todo[] = await res.json();
