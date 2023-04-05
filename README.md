@@ -17,14 +17,7 @@ npx create-next-app@latest --ts
 - 우선 새로운 구조로 NextJS를 공부 할 수 있어서 좋았습니다.
 |기본구조|appDir|
 |----|------|
-|<img width="181" alt="스크린샷" src="https://user-images.githubusercontent.com/97148877/230008431-a639bdfb-5c1a-41c1-afab-c0feb5a0409a.png">|<img width="181" alt="스크린샷" src="https://user-images.githubusercontent.com/97148877/230008493-323a4348-4591-462e-b979-3ac2e9bef309.png">|
-|1|2|
-
-|기본값|왼쪽 정렬|가운데 정렬|오른쪽 정렬|
-|---|:---|:---:|---:|
-|내용 1|내용 2|내용 3|내용 4|
-|내용 5|내용 6|내용 7|내용 8|
-|내용 9|내용 10|내용 11|내용 12|
+|<img width="181" alt="스크린샷" src="https://user-images.githubusercontent.com/97148877/230008431-a639bdfb-5c1a-41c1-afab-c0feb5a0409a.png" />|<img width="181" alt="스크린샷" src="https://user-images.githubusercontent.com/97148877/230008493-323a4348-4591-462e-b979-3ac2e9bef309.png" />|
 
 ## 느낀점
 - SSR, SSG에 대해 학습을 했고 각각에 사용되는 함수를 직접 실습을 해봤습니다. SSR과 CSR의 차이점은 서버에서 미리 렌더링된 DOM구조를 HTML문서를 렌더링하여 웹 크롤링, SEO에 좋습니다.
