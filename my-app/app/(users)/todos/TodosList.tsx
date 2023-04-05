@@ -9,6 +9,7 @@ const fetchTodos = async () => {
   return todos;
 };
 
+//함수 자체를 Promise 객체를 받은 이유는 아직 잘 모르겠다...
 const TodosList = async () => {
   const todos = await fetchTodos();
 
