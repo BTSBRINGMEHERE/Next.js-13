@@ -17,7 +17,8 @@ npx create-next-app@latest --ts
 - 우선 새로운 구조로 NextJS를 공부 할 수 있어서 좋았습니다.
 |기본구조|appDir|
 |:---:|:---:|
-|<img width="181" alt="스크린샷 2023-04-05 오후 4 12 48" src="https://user-images.githubusercontent.com/97148877/230008431-a639bdfb-5c1a-41c1-afab-c0feb5a0409a.png">|<img width="181" alt="스크린샷 2023-04-05 오후 4 08 52" src="https://user-images.githubusercontent.com/97148877/230008493-323a4348-4591-462e-b979-3ac2e9bef309.png">|
+|<img width="181" alt="스크린샷" src="https://user-images.githubusercontent.com/97148877/230008431-a639bdfb-5c1a-41c1-afab-c0feb5a0409a.png">|<img width="181" alt="스크린샷" src="https://user-images.githubusercontent.com/97148877/230008493-323a4348-4591-462e-b979-3ac2e9bef309.png">|
+|1|2|
 
 
 ## 느낀점
