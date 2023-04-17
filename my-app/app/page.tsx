@@ -6,7 +6,6 @@ const Home = () => {
   return (
     <div>
       <Suspense fallback={<p>Loading the Todos...</p>}>
-        <h1>Loading Todos</h1>
         <div className="flex space-x-2">
           {/*@ts-ignore */}
           <TodosList />
@@ -14,7 +13,6 @@ const Home = () => {
       </Suspense>
 
       <Suspense fallback={<p>Loading the Shopping Trolley...</p>}>
-        <h1>Loading Shopping Trolley</h1>
         <div className="flex space-x-2">
           {/*@ts-ignore */}
           <TodosList />
